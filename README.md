@@ -8,9 +8,9 @@
 
 
 
-### wdys_education
+### src/wdys_education
 ・大会競技「what did you say?」を行うノードを格納
 
-### nlp_education
+### src/nlp_education
 ・演習「NLP100本ノック」の課題ノードを格納
 
