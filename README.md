@@ -6,7 +6,7 @@
 ### config
 ・演習問題や大会競技で使うyamlファイル、txtファイルを格納
 
----
+
 
 ### wdys_education
 ・大会競技「what did you say?」を行うノードを格納
