@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-import rospy
+import os.path
 import pandas as pd
 
-wiki = pd.read_json('jawiki-country.json.gz', lines = True)
+file_path = os.path.expanduser('~/catkin_ws/src/nlp100/jawiki-country.json.gz')
+wiki = pd.read_json(file_path, lines = True)
 uk = wiki[wiki['title'] == 'イギリス'].text.values
 
 print(uk)

@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-import rospy
-
 def temperature(x, y, z):
     return str(x) + '時の' + str(y) + 'は' + str(z)
 

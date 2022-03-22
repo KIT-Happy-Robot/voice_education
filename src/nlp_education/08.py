@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-import rospy
-
 def cipher(S):
     new = []
     for s in S:
