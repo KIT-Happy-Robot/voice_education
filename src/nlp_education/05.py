@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-import rospy
-
 def ngram(S, n):
     r = []
     for i in range(len(S) - n + 1):
