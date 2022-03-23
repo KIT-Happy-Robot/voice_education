@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-import rospy
-
 s1 = 'パトカー'
 s2 = 'タクシー'
 

@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-import rospy
+import os.path
 
-path = 'neko.txt.mecab'
-with open(path) as f:
+file_path = os.path.expanduser('~/catkin_ws/src/nlp100/neko.txt.mecab')
+with open(file_path) as f:
     text = f.read().split('\n')
 result = []
 for line in text[:-1]:

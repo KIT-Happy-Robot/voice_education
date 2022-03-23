@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-import rospy
+import os.path
 import gensim
 
-model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin.gz', binary = True)
+file_path = os.path.expanduser('~/catkin_ws/src/nlp100/GoogleNews-vectors-negative300.bin.gz')
+model = gensim.models.KeyedVectors.load_word2vec_format(file_path, binary = True)
 print(model['United_States'])
