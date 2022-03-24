@@ -1,8 +1,8 @@
 # mc_education
-# Overview
-実機班の教育内容をまとめたROSメタパッケージ
+## Overview
+音声班班の教育内容をまとめたROSメタパッケージ
 
-# Description
+## Description
 以下のパッケージを含みます。
 
 ## voice_education
